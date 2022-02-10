@@ -14,6 +14,7 @@ x_index = np.arange(2010, 2021)
 plt.style.use("fivethirtyeight")
 
 plt.figure(figsize=(10, 6), dpi=80)
+plt.xticks(ticks=x_index)
 
 plt.plot(x_index, total, marker="o", label="Total Student")
 plt.plot(x_index, male, marker="o", label="Male Student")
