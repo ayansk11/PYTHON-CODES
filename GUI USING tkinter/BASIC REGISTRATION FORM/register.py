@@ -1,3 +1,9 @@
+#BEFORE RUNNING THE CODE MAKE SURE THAT - 
+
+#YOU HAVE DOWNLOADED AND INSTALLED Connector/Python from MySQL Community Server Downloads on your OS
+
+#YOU HAVE mysql.connector module
+#    (if not then execute the following command on your Terminal/cmd : pip install mysql-connector-python
 
 from tkinter import *
 from tkinter import ttk
